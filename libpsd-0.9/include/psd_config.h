@@ -47,9 +47,9 @@
 
 // get path resource
 #if 1
-#if defined(PSD_GET_ALL_IMAGE_RESOURCE)
+//#if defined(PSD_GET_ALL_IMAGE_RESOURCE)
 #define PSD_GET_PATH_RESOURCE
-#endif
+//#endif
 #endif
 
 

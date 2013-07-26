@@ -28,6 +28,7 @@
 #include "psd_system.h"
 #include "psd_stream.h"
 #include "psd_color.h"
+#include <stdio.h>
 #include "psd_fixed.h"
 
 #ifdef PSD_INCLUDDE_LIBEXIF
@@ -655,6 +656,9 @@ psd_status psd_get_image_resource(psd_context * context)
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 					default:
+						//	psd_stream_get(context, a, 22);
+						//	psd_fseek(context->file, -22);
+						//	psd_stream_get(context, a, 22);
 #ifdef PSD_GET_PATH_RESOURCE
 						// Photoshop stores its paths as resources of type 8BIM, with IDs in the range 2000
 						// through 2998.

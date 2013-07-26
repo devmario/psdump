@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAD334717A14F9200C5B621 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAD334617A14F9200C5B621 /* main.cpp */; };
+		ACAD334917A14F9200C5B621 /* toslice.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACAD334817A14F9200C5B621 /* toslice.1 */; };
+		ACAD339A17A14FA000C5B621 /* adjustment.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD335C17A14FA000C5B621 /* adjustment.c */; };
+		ACAD339B17A14FA000C5B621 /* bevel_emboss.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD335D17A14FA000C5B621 /* bevel_emboss.c */; };
+		ACAD339C17A14FA000C5B621 /* bitmap.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD335E17A14FA000C5B621 /* bitmap.c */; };
+		ACAD339D17A14FA000C5B621 /* blend.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD335F17A14FA000C5B621 /* blend.c */; };
+		ACAD339E17A14FA000C5B621 /* boundary.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336017A14FA000C5B621 /* boundary.c */; };
+		ACAD339F17A14FA000C5B621 /* brightness_contrast.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336117A14FA000C5B621 /* brightness_contrast.c */; };
+		ACAD33A017A14FA000C5B621 /* channel_image.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336217A14FA000C5B621 /* channel_image.c */; };
+		ACAD33A117A14FA000C5B621 /* channel_mixer.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336317A14FA000C5B621 /* channel_mixer.c */; };
+		ACAD33A217A14FA000C5B621 /* color.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336417A14FA000C5B621 /* color.c */; };
+		ACAD33A317A14FA000C5B621 /* color_balance.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336517A14FA000C5B621 /* color_balance.c */; };
+		ACAD33A417A14FA000C5B621 /* color_mode.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336617A14FA000C5B621 /* color_mode.c */; };
+		ACAD33A517A14FA000C5B621 /* color_overlay.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336717A14FA000C5B621 /* color_overlay.c */; };
+		ACAD33A617A14FA000C5B621 /* curves.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336817A14FA000C5B621 /* curves.c */; };
+		ACAD33A717A14FA000C5B621 /* descriptor.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336917A14FA000C5B621 /* descriptor.c */; };
+		ACAD33A817A14FA000C5B621 /* drop_shadow.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336A17A14FA000C5B621 /* drop_shadow.c */; };
+		ACAD33A917A14FA000C5B621 /* effects.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336B17A14FA000C5B621 /* effects.c */; };
+		ACAD33AA17A14FA000C5B621 /* file_header.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336C17A14FA000C5B621 /* file_header.c */; };
+		ACAD33AB17A14FA000C5B621 /* fixed.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336D17A14FA000C5B621 /* fixed.c */; };
+		ACAD33AC17A14FA000C5B621 /* gaussian_blur.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336E17A14FA000C5B621 /* gaussian_blur.c */; };
+		ACAD33AD17A14FA000C5B621 /* gradient_blend.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD336F17A14FA000C5B621 /* gradient_blend.c */; };
+		ACAD33AE17A14FA000C5B621 /* gradient_fill.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337017A14FA000C5B621 /* gradient_fill.c */; };
+		ACAD33AF17A14FA000C5B621 /* gradient_map.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337117A14FA000C5B621 /* gradient_map.c */; };
+		ACAD33B017A14FA000C5B621 /* gradient_overlay.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337217A14FA000C5B621 /* gradient_overlay.c */; };
+		ACAD33B117A14FA000C5B621 /* hue_saturation.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337317A14FA000C5B621 /* hue_saturation.c */; };
+		ACAD33B217A14FA000C5B621 /* image_data.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337417A14FA000C5B621 /* image_data.c */; };
+		ACAD33B317A14FA000C5B621 /* image_resource.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337517A14FA000C5B621 /* image_resource.c */; };
+		ACAD33B417A14FA000C5B621 /* inner_glow.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337617A14FA000C5B621 /* inner_glow.c */; };
+		ACAD33B517A14FA000C5B621 /* inner_shadow.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337717A14FA000C5B621 /* inner_shadow.c */; };
+		ACAD33B617A14FA000C5B621 /* invert.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337817A14FA000C5B621 /* invert.c */; };
+		ACAD33B717A14FA000C5B621 /* layer_mask.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337917A14FA000C5B621 /* layer_mask.c */; };
+		ACAD33B817A14FA000C5B621 /* levels.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337A17A14FA000C5B621 /* levels.c */; };
+		ACAD33B917A14FA000C5B621 /* outer_glow.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337B17A14FA000C5B621 /* outer_glow.c */; };
+		ACAD33BA17A14FA000C5B621 /* path.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337C17A14FA000C5B621 /* path.c */; };
+		ACAD33BB17A14FA000C5B621 /* pattern.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337D17A14FA000C5B621 /* pattern.c */; };
+		ACAD33BC17A14FA000C5B621 /* pattern_fill.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337E17A14FA000C5B621 /* pattern_fill.c */; };
+		ACAD33BD17A14FA000C5B621 /* pattern_overlay.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD337F17A14FA000C5B621 /* pattern_overlay.c */; };
+		ACAD33BE17A14FA000C5B621 /* photo_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD338017A14FA000C5B621 /* photo_filter.c */; };
+		ACAD33BF17A14FA000C5B621 /* posterize.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD338117A14FA000C5B621 /* posterize.c */; };
+		ACAD33C017A14FA000C5B621 /* psd.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD338217A14FA000C5B621 /* psd.c */; };
+		ACAD33C117A14FA000C5B621 /* psd_system.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD338B17A14FA000C5B621 /* psd_system.c */; };
+		ACAD33C217A14FA000C5B621 /* psd_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD338D17A14FA000C5B621 /* psd_zip.c */; };
+		ACAD33C317A14FA000C5B621 /* rect.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD338E17A14FA000C5B621 /* rect.c */; };
+		ACAD33C417A14FA000C5B621 /* satin.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD338F17A14FA000C5B621 /* satin.c */; };
+		ACAD33C517A14FA000C5B621 /* selective_color.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD339017A14FA000C5B621 /* selective_color.c */; };
+		ACAD33C617A14FA000C5B621 /* solid_color.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD339117A14FA000C5B621 /* solid_color.c */; };
+		ACAD33C717A14FA000C5B621 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD339217A14FA000C5B621 /* stream.c */; };
+		ACAD33C817A14FA000C5B621 /* stroke.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD339317A14FA000C5B621 /* stroke.c */; };
+		ACAD33C917A14FA000C5B621 /* threshold.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD339417A14FA000C5B621 /* threshold.c */; };
+		ACAD33CA17A14FA000C5B621 /* thumbnail.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD339517A14FA000C5B621 /* thumbnail.c */; };
+		ACAD33CB17A14FA000C5B621 /* type_tool.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAD339617A14FA000C5B621 /* type_tool.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ACAD334117A14F9200C5B621 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				ACAD334917A14F9200C5B621 /* toslice.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ACAD334317A14F9200C5B621 /* toslice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = toslice; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAD334617A14F9200C5B621 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ACAD334817A14F9200C5B621 /* toslice.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = toslice.1; sourceTree = "<group>"; };
+		ACAD335517A14FA000C5B621 /* libpsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libpsd.h; sourceTree = "<group>"; };
+		ACAD335617A14FA000C5B621 /* psd_color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_color.h; sourceTree = "<group>"; };
+		ACAD335717A14FA000C5B621 /* psd_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_config.h; sourceTree = "<group>"; };
+		ACAD335817A14FA000C5B621 /* psd_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_types.h; sourceTree = "<group>"; };
+		ACAD335C17A14FA000C5B621 /* adjustment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adjustment.c; sourceTree = "<group>"; };
+		ACAD335D17A14FA000C5B621 /* bevel_emboss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bevel_emboss.c; sourceTree = "<group>"; };
+		ACAD335E17A14FA000C5B621 /* bitmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitmap.c; sourceTree = "<group>"; };
+		ACAD335F17A14FA000C5B621 /* blend.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blend.c; sourceTree = "<group>"; };
+		ACAD336017A14FA000C5B621 /* boundary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = boundary.c; sourceTree = "<group>"; };
+		ACAD336117A14FA000C5B621 /* brightness_contrast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = brightness_contrast.c; sourceTree = "<group>"; };
+		ACAD336217A14FA000C5B621 /* channel_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = channel_image.c; sourceTree = "<group>"; };
+		ACAD336317A14FA000C5B621 /* channel_mixer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = channel_mixer.c; sourceTree = "<group>"; };
+		ACAD336417A14FA000C5B621 /* color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = color.c; sourceTree = "<group>"; };
+		ACAD336517A14FA000C5B621 /* color_balance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = color_balance.c; sourceTree = "<group>"; };
+		ACAD336617A14FA000C5B621 /* color_mode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = color_mode.c; sourceTree = "<group>"; };
+		ACAD336717A14FA000C5B621 /* color_overlay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = color_overlay.c; sourceTree = "<group>"; };
+		ACAD336817A14FA000C5B621 /* curves.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curves.c; sourceTree = "<group>"; };
+		ACAD336917A14FA000C5B621 /* descriptor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = descriptor.c; sourceTree = "<group>"; };
+		ACAD336A17A14FA000C5B621 /* drop_shadow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drop_shadow.c; sourceTree = "<group>"; };
+		ACAD336B17A14FA000C5B621 /* effects.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = effects.c; sourceTree = "<group>"; };
+		ACAD336C17A14FA000C5B621 /* file_header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file_header.c; sourceTree = "<group>"; };
+		ACAD336D17A14FA000C5B621 /* fixed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fixed.c; sourceTree = "<group>"; };
+		ACAD336E17A14FA000C5B621 /* gaussian_blur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gaussian_blur.c; sourceTree = "<group>"; };
+		ACAD336F17A14FA000C5B621 /* gradient_blend.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gradient_blend.c; sourceTree = "<group>"; };
+		ACAD337017A14FA000C5B621 /* gradient_fill.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gradient_fill.c; sourceTree = "<group>"; };
+		ACAD337117A14FA000C5B621 /* gradient_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gradient_map.c; sourceTree = "<group>"; };
+		ACAD337217A14FA000C5B621 /* gradient_overlay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gradient_overlay.c; sourceTree = "<group>"; };
+		ACAD337317A14FA000C5B621 /* hue_saturation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hue_saturation.c; sourceTree = "<group>"; };
+		ACAD337417A14FA000C5B621 /* image_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_data.c; sourceTree = "<group>"; };
+		ACAD337517A14FA000C5B621 /* image_resource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_resource.c; sourceTree = "<group>"; };
+		ACAD337617A14FA000C5B621 /* inner_glow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inner_glow.c; sourceTree = "<group>"; };
+		ACAD337717A14FA000C5B621 /* inner_shadow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inner_shadow.c; sourceTree = "<group>"; };
+		ACAD337817A14FA000C5B621 /* invert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = invert.c; sourceTree = "<group>"; };
+		ACAD337917A14FA000C5B621 /* layer_mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = layer_mask.c; sourceTree = "<group>"; };
+		ACAD337A17A14FA000C5B621 /* levels.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = levels.c; sourceTree = "<group>"; };
+		ACAD337B17A14FA000C5B621 /* outer_glow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = outer_glow.c; sourceTree = "<group>"; };
+		ACAD337C17A14FA000C5B621 /* path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = path.c; sourceTree = "<group>"; };
+		ACAD337D17A14FA000C5B621 /* pattern.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pattern.c; sourceTree = "<group>"; };
+		ACAD337E17A14FA000C5B621 /* pattern_fill.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pattern_fill.c; sourceTree = "<group>"; };
+		ACAD337F17A14FA000C5B621 /* pattern_overlay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pattern_overlay.c; sourceTree = "<group>"; };
+		ACAD338017A14FA000C5B621 /* photo_filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = photo_filter.c; sourceTree = "<group>"; };
+		ACAD338117A14FA000C5B621 /* posterize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = posterize.c; sourceTree = "<group>"; };
+		ACAD338217A14FA000C5B621 /* psd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = psd.c; sourceTree = "<group>"; };
+		ACAD338317A14FA000C5B621 /* psd_bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_bitmap.h; sourceTree = "<group>"; };
+		ACAD338417A14FA000C5B621 /* psd_blend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_blend.h; sourceTree = "<group>"; };
+		ACAD338517A14FA000C5B621 /* psd_descriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_descriptor.h; sourceTree = "<group>"; };
+		ACAD338617A14FA000C5B621 /* psd_fixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_fixed.h; sourceTree = "<group>"; };
+		ACAD338717A14FA000C5B621 /* psd_gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_gradient.h; sourceTree = "<group>"; };
+		ACAD338817A14FA000C5B621 /* psd_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_math.h; sourceTree = "<group>"; };
+		ACAD338917A14FA000C5B621 /* psd_rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_rect.h; sourceTree = "<group>"; };
+		ACAD338A17A14FA000C5B621 /* psd_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_stream.h; sourceTree = "<group>"; };
+		ACAD338B17A14FA000C5B621 /* psd_system.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = psd_system.c; sourceTree = "<group>"; };
+		ACAD338C17A14FA000C5B621 /* psd_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psd_system.h; sourceTree = "<group>"; };
+		ACAD338D17A14FA000C5B621 /* psd_zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = psd_zip.c; sourceTree = "<group>"; };
+		ACAD338E17A14FA000C5B621 /* rect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rect.c; sourceTree = "<group>"; };
+		ACAD338F17A14FA000C5B621 /* satin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = satin.c; sourceTree = "<group>"; };
+		ACAD339017A14FA000C5B621 /* selective_color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = selective_color.c; sourceTree = "<group>"; };
+		ACAD339117A14FA000C5B621 /* solid_color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = solid_color.c; sourceTree = "<group>"; };
+		ACAD339217A14FA000C5B621 /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stream.c; sourceTree = "<group>"; };
+		ACAD339317A14FA000C5B621 /* stroke.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stroke.c; sourceTree = "<group>"; };
+		ACAD339417A14FA000C5B621 /* threshold.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threshold.c; sourceTree = "<group>"; };
+		ACAD339517A14FA000C5B621 /* thumbnail.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thumbnail.c; sourceTree = "<group>"; };
+		ACAD339617A14FA000C5B621 /* type_tool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = type_tool.c; sourceTree = "<group>"; };
+		ACAD339917A14FA000C5B621 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAD334017A14F9200C5B621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAD333A17A14F9200C5B621 = {
+			isa = PBXGroup;
+			children = (
+				ACAD334F17A14FA000C5B621 /* libpsd-0.9 */,
+				ACAD334517A14F9200C5B621 /* toslice */,
+				ACAD334417A14F9200C5B621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAD334417A14F9200C5B621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD334317A14F9200C5B621 /* toslice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAD334517A14F9200C5B621 /* toslice */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD334617A14F9200C5B621 /* main.cpp */,
+				ACAD334817A14F9200C5B621 /* toslice.1 */,
+			);
+			path = toslice;
+			sourceTree = "<group>";
+		};
+		ACAD334F17A14FA000C5B621 /* libpsd-0.9 */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD335417A14FA000C5B621 /* include */,
+				ACAD335B17A14FA000C5B621 /* src */,
+				ACAD339917A14FA000C5B621 /* TODO */,
+			);
+			name = "libpsd-0.9";
+			path = "../libpsd-0.9";
+			sourceTree = "<group>";
+		};
+		ACAD335417A14FA000C5B621 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD335517A14FA000C5B621 /* libpsd.h */,
+				ACAD335617A14FA000C5B621 /* psd_color.h */,
+				ACAD335717A14FA000C5B621 /* psd_config.h */,
+				ACAD335817A14FA000C5B621 /* psd_types.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		ACAD335B17A14FA000C5B621 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD335C17A14FA000C5B621 /* adjustment.c */,
+				ACAD335D17A14FA000C5B621 /* bevel_emboss.c */,
+				ACAD335E17A14FA000C5B621 /* bitmap.c */,
+				ACAD335F17A14FA000C5B621 /* blend.c */,
+				ACAD336017A14FA000C5B621 /* boundary.c */,
+				ACAD336117A14FA000C5B621 /* brightness_contrast.c */,
+				ACAD336217A14FA000C5B621 /* channel_image.c */,
+				ACAD336317A14FA000C5B621 /* channel_mixer.c */,
+				ACAD336417A14FA000C5B621 /* color.c */,
+				ACAD336517A14FA000C5B621 /* color_balance.c */,
+				ACAD336617A14FA000C5B621 /* color_mode.c */,
+				ACAD336717A14FA000C5B621 /* color_overlay.c */,
+				ACAD336817A14FA000C5B621 /* curves.c */,
+				ACAD336917A14FA000C5B621 /* descriptor.c */,
+				ACAD336A17A14FA000C5B621 /* drop_shadow.c */,
+				ACAD336B17A14FA000C5B621 /* effects.c */,
+				ACAD336C17A14FA000C5B621 /* file_header.c */,
+				ACAD336D17A14FA000C5B621 /* fixed.c */,
+				ACAD336E17A14FA000C5B621 /* gaussian_blur.c */,
+				ACAD336F17A14FA000C5B621 /* gradient_blend.c */,
+				ACAD337017A14FA000C5B621 /* gradient_fill.c */,
+				ACAD337117A14FA000C5B621 /* gradient_map.c */,
+				ACAD337217A14FA000C5B621 /* gradient_overlay.c */,
+				ACAD337317A14FA000C5B621 /* hue_saturation.c */,
+				ACAD337417A14FA000C5B621 /* image_data.c */,
+				ACAD337517A14FA000C5B621 /* image_resource.c */,
+				ACAD337617A14FA000C5B621 /* inner_glow.c */,
+				ACAD337717A14FA000C5B621 /* inner_shadow.c */,
+				ACAD337817A14FA000C5B621 /* invert.c */,
+				ACAD337917A14FA000C5B621 /* layer_mask.c */,
+				ACAD337A17A14FA000C5B621 /* levels.c */,
+				ACAD337B17A14FA000C5B621 /* outer_glow.c */,
+				ACAD337C17A14FA000C5B621 /* path.c */,
+				ACAD337D17A14FA000C5B621 /* pattern.c */,
+				ACAD337E17A14FA000C5B621 /* pattern_fill.c */,
+				ACAD337F17A14FA000C5B621 /* pattern_overlay.c */,
+				ACAD338017A14FA000C5B621 /* photo_filter.c */,
+				ACAD338117A14FA000C5B621 /* posterize.c */,
+				ACAD338217A14FA000C5B621 /* psd.c */,
+				ACAD338317A14FA000C5B621 /* psd_bitmap.h */,
+				ACAD338417A14FA000C5B621 /* psd_blend.h */,
+				ACAD338517A14FA000C5B621 /* psd_descriptor.h */,
+				ACAD338617A14FA000C5B621 /* psd_fixed.h */,
+				ACAD338717A14FA000C5B621 /* psd_gradient.h */,
+				ACAD338817A14FA000C5B621 /* psd_math.h */,
+				ACAD338917A14FA000C5B621 /* psd_rect.h */,
+				ACAD338A17A14FA000C5B621 /* psd_stream.h */,
+				ACAD338B17A14FA000C5B621 /* psd_system.c */,
+				ACAD338C17A14FA000C5B621 /* psd_system.h */,
+				ACAD338D17A14FA000C5B621 /* psd_zip.c */,
+				ACAD338E17A14FA000C5B621 /* rect.c */,
+				ACAD338F17A14FA000C5B621 /* satin.c */,
+				ACAD339017A14FA000C5B621 /* selective_color.c */,
+				ACAD339117A14FA000C5B621 /* solid_color.c */,
+				ACAD339217A14FA000C5B621 /* stream.c */,
+				ACAD339317A14FA000C5B621 /* stroke.c */,
+				ACAD339417A14FA000C5B621 /* threshold.c */,
+				ACAD339517A14FA000C5B621 /* thumbnail.c */,
+				ACAD339617A14FA000C5B621 /* type_tool.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAD334217A14F9200C5B621 /* toslice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAD334C17A14F9200C5B621 /* Build configuration list for PBXNativeTarget "toslice" */;
+			buildPhases = (
+				ACAD333F17A14F9200C5B621 /* Sources */,
+				ACAD334017A14F9200C5B621 /* Frameworks */,
+				ACAD334117A14F9200C5B621 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toslice;
+			productName = toslice;
+			productReference = ACAD334317A14F9200C5B621 /* toslice */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAD333B17A14F9200C5B621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = vanillabreeze;
+			};
+			buildConfigurationList = ACAD333E17A14F9200C5B621 /* Build configuration list for PBXProject "toslice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACAD333A17A14F9200C5B621;
+			productRefGroup = ACAD334417A14F9200C5B621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAD334217A14F9200C5B621 /* toslice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAD333F17A14F9200C5B621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAD334717A14F9200C5B621 /* main.cpp in Sources */,
+				ACAD339A17A14FA000C5B621 /* adjustment.c in Sources */,
+				ACAD339B17A14FA000C5B621 /* bevel_emboss.c in Sources */,
+				ACAD339C17A14FA000C5B621 /* bitmap.c in Sources */,
+				ACAD339D17A14FA000C5B621 /* blend.c in Sources */,
+				ACAD339E17A14FA000C5B621 /* boundary.c in Sources */,
+				ACAD339F17A14FA000C5B621 /* brightness_contrast.c in Sources */,
+				ACAD33A017A14FA000C5B621 /* channel_image.c in Sources */,
+				ACAD33A117A14FA000C5B621 /* channel_mixer.c in Sources */,
+				ACAD33A217A14FA000C5B621 /* color.c in Sources */,
+				ACAD33A317A14FA000C5B621 /* color_balance.c in Sources */,
+				ACAD33A417A14FA000C5B621 /* color_mode.c in Sources */,
+				ACAD33A517A14FA000C5B621 /* color_overlay.c in Sources */,
+				ACAD33A617A14FA000C5B621 /* curves.c in Sources */,
+				ACAD33A717A14FA000C5B621 /* descriptor.c in Sources */,
+				ACAD33A817A14FA000C5B621 /* drop_shadow.c in Sources */,
+				ACAD33A917A14FA000C5B621 /* effects.c in Sources */,
+				ACAD33AA17A14FA000C5B621 /* file_header.c in Sources */,
+				ACAD33AB17A14FA000C5B621 /* fixed.c in Sources */,
+				ACAD33AC17A14FA000C5B621 /* gaussian_blur.c in Sources */,
+				ACAD33AD17A14FA000C5B621 /* gradient_blend.c in Sources */,
+				ACAD33AE17A14FA000C5B621 /* gradient_fill.c in Sources */,
+				ACAD33AF17A14FA000C5B621 /* gradient_map.c in Sources */,
+				ACAD33B017A14FA000C5B621 /* gradient_overlay.c in Sources */,
+				ACAD33B117A14FA000C5B621 /* hue_saturation.c in Sources */,
+				ACAD33B217A14FA000C5B621 /* image_data.c in Sources */,
+				ACAD33B317A14FA000C5B621 /* image_resource.c in Sources */,
+				ACAD33B417A14FA000C5B621 /* inner_glow.c in Sources */,
+				ACAD33B517A14FA000C5B621 /* inner_shadow.c in Sources */,
+				ACAD33B617A14FA000C5B621 /* invert.c in Sources */,
+				ACAD33B717A14FA000C5B621 /* layer_mask.c in Sources */,
+				ACAD33B817A14FA000C5B621 /* levels.c in Sources */,
+				ACAD33B917A14FA000C5B621 /* outer_glow.c in Sources */,
+				ACAD33BA17A14FA000C5B621 /* path.c in Sources */,
+				ACAD33BB17A14FA000C5B621 /* pattern.c in Sources */,
+				ACAD33BC17A14FA000C5B621 /* pattern_fill.c in Sources */,
+				ACAD33BD17A14FA000C5B621 /* pattern_overlay.c in Sources */,
+				ACAD33BE17A14FA000C5B621 /* photo_filter.c in Sources */,
+				ACAD33BF17A14FA000C5B621 /* posterize.c in Sources */,
+				ACAD33C017A14FA000C5B621 /* psd.c in Sources */,
+				ACAD33C117A14FA000C5B621 /* psd_system.c in Sources */,
+				ACAD33C217A14FA000C5B621 /* psd_zip.c in Sources */,
+				ACAD33C317A14FA000C5B621 /* rect.c in Sources */,
+				ACAD33C417A14FA000C5B621 /* satin.c in Sources */,
+				ACAD33C517A14FA000C5B621 /* selective_color.c in Sources */,
+				ACAD33C617A14FA000C5B621 /* solid_color.c in Sources */,
+				ACAD33C717A14FA000C5B621 /* stream.c in Sources */,
+				ACAD33C817A14FA000C5B621 /* stroke.c in Sources */,
+				ACAD33C917A14FA000C5B621 /* threshold.c in Sources */,
+				ACAD33CA17A14FA000C5B621 /* thumbnail.c in Sources */,
+				ACAD33CB17A14FA000C5B621 /* type_tool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACAD334A17A14F9200C5B621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ACAD334B17A14F9200C5B621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ACAD334D17A14F9200C5B621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACAD334E17A14F9200C5B621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAD333E17A14F9200C5B621 /* Build configuration list for PBXProject "toslice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD334A17A14F9200C5B621 /* Debug */,
+				ACAD334B17A14F9200C5B621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAD334C17A14F9200C5B621 /* Build configuration list for PBXNativeTarget "toslice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD334D17A14F9200C5B621 /* Debug */,
+				ACAD334E17A14F9200C5B621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAD333B17A14F9200C5B621 /* Project object */;
+}

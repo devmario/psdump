@@ -29,6 +29,7 @@
 #include "psd_stream.h"
 #include "psd_fixed.h"
 #include "psd_math.h"
+#include <stdio.h>
 
 
 #define PSD_MIN_PATH_COUNT		4
@@ -50,17 +51,19 @@ static psd_status psd_get_path_record(psd_context * context, psd_path * path, ps
 	subpaths = (psd_subpath *)psd_malloc(sizeof(psd_subpath) * malloc_subpath);
 	if (subpaths == NULL)
 		return psd_status_malloc_failed;
-
+	
+	
 	// These resource blocks consist of a series of 26-byte path point records, so the resource
 	// length should always be a multiple of 26.
 	records = length / 26;
-
+	// Path fill rule record
+	// The remaining 24 bytes of the first record are zeroes.
 	for (i = 0; i < records; i ++)
 	{
 		record_type = psd_stream_get_short(context);
 		switch(record_type)
 		{
-			case 0:		// Closed subpath length record
+			case 0:
 			case 3:		// Open subpath length record
 				if (path->number_of_subpaths >= malloc_subpath)
 				{
@@ -135,7 +138,10 @@ static psd_status psd_get_path_record(psd_context * context, psd_path * path, ps
 				break;
 		}
 	}
-
+	
+//	psd_stream_get(context, a, 22);
+//	psd_stream_get_null(context, 2);
+	
 	path->subpaths = subpaths;
 							
 	return psd_status_done;
